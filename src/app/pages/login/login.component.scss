@@ -1,0 +1,31 @@
+@import 'var.scss';
+
+.login-container {
+    height: 100vh;
+    width: 100vw;
+
+    .login-content {
+        background-color: #e5b8f425;
+        width: 50%;
+        height: 50%;
+        border-radius: 20px;
+        flex-direction: column;
+        font-size: 1.5rem;
+
+        .logo {
+            width: 350px;
+            padding: 2rem;
+        }
+
+        button {
+            background-color: #810CA8;
+            color: $font-color;
+            font-size: 2rem;
+            padding: 1rem 6rem;
+            border-radius: 40px;
+            cursor: pointer;
+            margin: 2rem;
+
+        }
+    }
+}
